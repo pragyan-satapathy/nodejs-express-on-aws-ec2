@@ -4,13 +4,13 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req,res) => {
-    res.send('<h1>Express App</h1> <p>hello aws!!!!!<p>');
+    res.send('<h1>Express App</h1> <p>hello aws<p>');
 })
 
 app.get('/products', (req, res)=> {
     res.send([
         {
-            productID: 101,
+            productID: 103,
             price: 100
         },
         {
